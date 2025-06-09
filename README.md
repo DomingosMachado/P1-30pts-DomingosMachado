@@ -47,25 +47,7 @@ Crie um componente com:
 
 ---
 
-## 🚀 Como executar o projeto
 
-```bash
-# Instalar dependências
-npm install
-
-# Executar em modo de desenvolvimento
-npm run dev
-
-# Build para produção
-npm run build
-```
-
-## 🛠️ Tecnologias utilizadas
-
-- ⚛️ **React** 19.1.0
-- 🛣️ **React Router DOM** - Para navegação entre páginas
-- ⚡ **Vite** - Build tool e servidor de desenvolvimento
-- 🎨 **CSS Modules** - Para estilização isolada de componentes
 
 ## 📂 Estrutura do projeto
 
@@ -88,11 +70,3 @@ src/
 └── main.jsx
 ```
 
-## 🎨 Features implementadas
-
-- ✅ **Navegação entre páginas** com React Router
-- ✅ **Design responsivo** para mobile, tablet e desktop
-- ✅ **Tema mágico** na Questão 1 com efeitos visuais
-- ✅ **CSS Modules** para isolamento de estilos
-- ✅ **Animações suaves** e efeitos hover
-- ✅ **Estrutura organizada** de componentes
