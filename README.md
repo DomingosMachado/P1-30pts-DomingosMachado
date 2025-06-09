@@ -1,12 +1,31 @@
-# React + Vite
+Instruções: Crie um projeto React, e nesse projeto deve conter uma página
+principal com links para acessar as três questões descritas abaixo, cada uma
+representando uma página/rota diferente.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Entrega: O trabalho deve ser entregue em um repositório público no GitHub.
+Envie o link do repositório na tarefa do classroom.
 
-Currently, two official plugins are available:
+Página Principal (Home)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Crie uma tela inicial simples com três links ou botões:
+ Ir para Questão 1 - Tema Claro/Escuro
+ Ir para Questão 2 - Mensagem de Boas-Vindas
+ Ir para Questão 3 - Lista de Tarefas
 
-## Expanding the ESLint configuration
+1 – Alterar Tema (Claro/Escuro)
+Crie um componente com:
+ Um botão com o texto que muda entre "Tema Claro" e "Tema Escuro".
+Ao clicar, o fundo da tela e o texto do botão devem alternar entre os dois
+temas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2 – Mudar Texto com Botão
+Crie um componente com:
+ Um parágrafo que exibe a mensagem inicial: "Olá!"
+ Um botão com o texto "Entrar".
+ Quando o botão for clicado, o texto do parágrafo deve mudar para
+"Bem- vindo!”
+3 – Lista de Tarefas
+Crie um componente com:
+ Um campo de input de texto onde o usuário digita uma tarefa.
+ Um botão "Adicionar" que adiciona o texto na lista.
+ Uma lista com todas as tarefas adicionadas.
