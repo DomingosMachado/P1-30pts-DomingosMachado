@@ -5,7 +5,6 @@ import styles from './questao3.module.css';
 function Questao3() {
   const [tarefa, setTarefa] = useState('');  const [tarefas, setTarefas] = useState([]);
 
-  // Carregar tarefas do localStorage ao montar o componente
   useEffect(() => {
     const tarefasSalvas = localStorage.getItem('tarefas');
     if (tarefasSalvas) {
@@ -13,7 +12,6 @@ function Questao3() {
     }
   }, []);
 
-  // Salvar tarefas no localStorage sempre que a lista mudar
   useEffect(() => {
     localStorage.setItem('tarefas', JSON.stringify(tarefas));
   }, [tarefas]);
