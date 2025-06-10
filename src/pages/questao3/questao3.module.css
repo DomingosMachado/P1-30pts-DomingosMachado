@@ -66,6 +66,71 @@
   border-radius: 6px;
   border-left: 4px solid #ffc107;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.taskConcluida {
+  background-color: rgba(200, 230, 201, 0.9);
+  border-left-color: #28a745;
+  opacity: 0.8;
+}
+
+.taskContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.taskText {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.textConcluido {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.taskButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.btnToggle, .btnApagar {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.btnConcluir {
+  background-color: #28a745;
+  color: white;
+}
+
+.btnConcluir:hover {
+  background-color: #218838;
+}
+
+.btnDesfazer {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btnDesfazer:hover {
+  background-color: #5a6268;
+}
+
+.btnApagar {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btnApagar:hover {
+  background-color: #c82333;
 }
 
 .backLink {
@@ -141,19 +206,8 @@
   .taskList {
     max-width: 800px;
   }
-  
-  .taskItem {
+    .taskItem {
     font-size: 1.2rem;
     padding: 18px;
   }
-}
-
-.backLink {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.backLink:hover {
-  text-decoration: underline;
 }

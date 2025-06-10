@@ -1,0 +1,27 @@
+.backLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  transition: all 0.2s ease;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+  .backLink {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .backLink {
+    font-size: 20px;
+  }
+}

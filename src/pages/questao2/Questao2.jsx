@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { PageContainer, Button, BackLink } from '../../components';
 import styles from './questao2.module.css';
 
 function Questao2() {
@@ -9,15 +10,18 @@ function Questao2() {
   };
 
   return (
-    <div className={styles.container}>
+    <PageContainer>
       <h1 className={styles.title}>Questão 2 - Mensagem de Boas-Vindas</h1>
       <p className={styles.message}>{mensagem}</p>
-      <button onClick={mudarTexto} className={styles.button}>
+      <Button 
+        onClick={mudarTexto} 
+        variant="success"
+        size="medium"
+      >
         Entrar
-      </button>
-      <br />
-      <a href="/" className={styles.backLink}>←Home</a>
-    </div>
+      </Button>
+      <BackLink />
+    </PageContainer>
   );
 }
 

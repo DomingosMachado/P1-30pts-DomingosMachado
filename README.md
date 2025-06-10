@@ -48,25 +48,3 @@ Crie um componente com:
 ---
 
 
-
-## 📂 Estrutura do projeto
-
-```
-src/
-├── pages/
-│   ├── home/
-│   │   ├── Homepage.jsx
-│   │   └── home.module.css
-│   ├── questao1/
-│   │   ├── Questao1.jsx
-│   │   └── questao1.module.css
-│   ├── questao2/
-│   │   ├── Questao2.jsx
-│   │   └── questao2.module.css
-│   └── questao3/
-│       ├── Questao3.jsx
-│       └── questao3.module.css
-├── App.jsx
-└── main.jsx
-```
-
