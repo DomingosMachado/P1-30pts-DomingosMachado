@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Exercício React</h1>
-      <p className={styles.subtitle}>Bem-vindo! Escolha uma das questões abaixo:</p>
+      <p className={styles.subtitle}>Olá! Escolha uma das questões abaixo:</p>
       
       <div className={styles.linksContainer}>
         <a href="/questao1" className={`${styles.link} ${styles.linkBlue}`}>
