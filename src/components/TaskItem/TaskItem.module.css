@@ -1,0 +1,42 @@
+/* TaskItem.module.css */
+.taskItem {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background: white;
+  transition: all 0.2s ease;
+}
+
+.taskItem:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.taskConcluida {
+  background: #f8f9fa;
+  opacity: 0.7;
+}
+
+.taskContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.taskText {
+  flex: 1;
+  font-size: 16px;
+}
+
+.textConcluido {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.taskButtons {
+  display: flex;
+  gap: 8px;
+}
