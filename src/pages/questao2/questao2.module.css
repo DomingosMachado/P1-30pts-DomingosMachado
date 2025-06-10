@@ -45,6 +45,15 @@
   text-decoration: underline;
 }
 
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
 /* Tablet (iPad) */
 @media (min-width: 768px) {
   .container {
