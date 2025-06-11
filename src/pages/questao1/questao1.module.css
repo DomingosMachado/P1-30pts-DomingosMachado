@@ -9,57 +9,62 @@
 }
 
 .light {
-    background: linear-gradient(135deg,
-        #ff6b35 0%,    /* Laranja Gryffindor */
-        #ffd700 30%,   /* Dourado */
-        #ffeb3b 60%,   /* Ouro claro */
-        #f5deb3 100%   /* Bege parchment */
-    );
-    background-attachment: fixed;
-    box-shadow: inset 0 0 100px rgba(255, 107, 53, 0.15);
+  background: linear-gradient(
+    135deg,
+    #ff6b35 0%,
+    #ffd700 30%,
+    #ffeb3b 60%,
+    #f5deb3 100%
+  );
+  background-attachment: fixed;
+  box-shadow: inset 0 0 100px rgba(255, 107, 53, 0.15);
 }
 
 .dark {
-    background: linear-gradient(135deg,
-        #1a0b2e 0%,    /* Roxo bem escuro */
-        #16213e 25%,   /* Azul noturno */
-        #0f3460 50%,   /* Azul meia-noite */
-        #000000 100%   /* Preto total */
-    );
-    background-attachment: fixed;
-    color: white;
-    box-shadow: inset 0 0 120px rgba(26, 11, 46, 0.4);
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(
+    135deg,
+    #1a0b2e 0%,
+    /* Roxo bem escuro */ #16213e 25%,
+    /* Azul noturno */ #0f3460 50%,
+    /* Azul meia-noite */ #000000 100% /* Preto total */
+  );
+  background-attachment: fixed;
+  color: white;
+  box-shadow: inset 0 0 120px rgba(26, 11, 46, 0.4);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .dark::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: 
-        radial-gradient(2px 2px at 20px 30px, #ffd700, transparent),
-        radial-gradient(2px 2px at 40px 70px, rgba(255, 215, 0, 0.8), transparent),
-        radial-gradient(1px 1px at 90px 40px, #ffd700, transparent),
-        radial-gradient(1px 1px at 130px 80px, rgba(255, 215, 0, 0.6), transparent),
-        radial-gradient(2px 2px at 160px 30px, #ffd700, transparent);
-    background-repeat: repeat;
-    background-size: 200px 100px;
-    animation: sparkles 4s linear infinite;
-    pointer-events: none;
-    z-index: 1;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(2px 2px at 20px 30px, #ffd700, transparent),
+    radial-gradient(2px 2px at 40px 70px, rgba(255, 215, 0, 0.8), transparent),
+    radial-gradient(1px 1px at 90px 40px, #ffd700, transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(255, 215, 0, 0.6), transparent),
+    radial-gradient(2px 2px at 160px 30px, #ffd700, transparent);
+  background-repeat: repeat;
+  background-size: 200px 100px;
+  animation: sparkles 4s linear infinite;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .dark .container {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 @keyframes sparkles {
-    from { transform: translateY(0px); }
-    to { transform: translateY(-100px); }
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-100px);
+  }
 }
 
 .title {
@@ -121,17 +126,17 @@
   .container {
     padding: 40px;
   }
-  
+
   .title {
     font-size: 2.5rem;
   }
-  
+
   .button {
     font-size: 1.1rem;
     padding: 15px 30px;
     max-width: 280px;
   }
-  
+
   .description {
     font-size: 1.1rem;
   }
@@ -142,17 +147,17 @@
   .container {
     padding: 60px;
   }
-  
+
   .title {
     font-size: 3rem;
   }
-  
+
   .button {
     font-size: 1.2rem;
     padding: 18px 35px;
     max-width: 320px;
   }
-  
+
   .description {
     font-size: 1.2rem;
   }
